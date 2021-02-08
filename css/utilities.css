@@ -1,0 +1,49 @@
+.container {
+    max-width: 1900px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.py-5 {
+    padding: 3rem 0;
+}
+
+.bg-dark {
+    color: rgb(85, 84, 84);
+}
+
+
+/*margin*/
+
+.mx-6 {
+    margin: 0 6rem;
+}
